@@ -137,17 +137,6 @@ emojis = [128, 128]
 # - secret_access_key is token generated on the "Application Keys" page
 # - default_bucket matches the name of the bucket you've created
 
-# S3 protocol endpoint
-endpoint = "http://minio:9000"
-# S3 region name
-region = "minio"
-# S3 protocol key ID
-access_key_id = "minioautumn"
-# S3 protocol access key
-secret_access_key = "minioautumn"
-# Bucket to upload to by default
-default_bucket = "revolt-uploads"
-
 [features]
 # Feature gate options
 webhooks_enabled = false
